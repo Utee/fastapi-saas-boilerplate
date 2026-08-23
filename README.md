@@ -5,6 +5,8 @@ an async SQLModel database setup, JWT/password helpers, and early authentication
 and Stripe billing modules. Docker, Railway, and Procfile deployment definitions
 are included.
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-saas-boilerplate?referralCode=kqVmfH&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 > **Project status:** the currently running application exposes only the root and
 > health routes. Authentication and billing endpoint modules exist in the source,
 > but their router is empty and is not included by `app/main.py`. Database migration
