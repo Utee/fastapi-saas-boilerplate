@@ -1,0 +1,20 @@
+# Web Framework & Server
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic-settings>=2.2.0
+
+# Database & Migrations
+sqlmodel>=0.0.16
+asyncpg>=0.29.0
+alembic>=1.13.0
+
+# Security & Authentication
+passlib[bcrypt]>=1.7.4
+python-jose[cryptography]>=3.3.0
+python-multipart>=0.0.9
+
+# Caching & Async Jobs
+redis>=5.0.0
+
+# Payments
+stripe>=8.0.0
